@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My App</h1>
+
+        <%= new Date(); %>
+
+        <ul>
+            <% for (var i = 0; i < items.length; i++) { %>
+                <li><%= items[i].desc %></li>
+            <% } %>
+        </ul>
+
+        <form action="/add" method="post">
+            <input type="text" name="newItem">
+            <input type="submit">
+        </form>
+    </div>
+    
+    <script src="../../js/jquery-2.1.3.min.js"></script>
+    <script src="../../bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
