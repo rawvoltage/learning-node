@@ -1,0 +1,26 @@
+{
+  "name": "nodelearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node plus.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rawvoltage/learning-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawvoltage/learning-node/issues"
+  },
+  "homepage": "https://github.com/rawvoltage/learning-node",
+  },
+  "devDependencies": {
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}

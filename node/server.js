@@ -13,9 +13,9 @@ app.use(bodyParser());
 
 app.use(require('./todos'));
 
-
-app.listen(8000, function() {
-    console.log('ready');
+var port = process.env.PORT || 8000;
+app.listen(port, function() {
+    console.log('ready on port' + port);
 });
 
 var server = http.createServer(function (request, response) {

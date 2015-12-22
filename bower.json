@@ -1,0 +1,22 @@
+{
+  "name": "nodelearning",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Danny Valerio <misscoollex@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rawvoltage/learning-node",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
