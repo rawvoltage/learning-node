@@ -1,11 +1,11 @@
 {
   "name": "nodelearning",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning node, express, and gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node plus.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,28 @@
     "url": "https://github.com/rawvoltage/learning-node/issues"
   },
   "homepage": "https://github.com/rawvoltage/learning-node",
-  },
   "devDependencies": {
+    "gulp-inject": "^3.0.0",
     "gulp-jscs": "^3.0.2",
     "gulp-jshint": "^2.0.0",
-    "jshint-stylish": "^2.1.0"
+    "gulp-nodemon": "^2.0.4",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "wiredep": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.2",
+    "mssql": "^2.6.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.15"
   }
 }
